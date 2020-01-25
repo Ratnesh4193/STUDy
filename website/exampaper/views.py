@@ -11,6 +11,6 @@ sem6=['Engineering Mathematics-6','Engineering Physics-6']
 sem7=['Engineering Mathematics-7','Engineering Physics-7']
 sem8=['Engineering Mathematics-8','Engineering Physics-8']
 def home(request):
-    return render(request,"STUDy.html ",{'number':number})
+    return render(request,"index.html ",{'number':number})
 def semester(request):
     return render(request,"SEM.html",{'number':number,'sem1':sem1,'sem2':sem2,'sem3':sem3,'sem4':sem4,'sem5':sem5,'sem6':sem6,'sem7':sem7,'sem8':sem8})
