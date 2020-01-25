@@ -1,0 +1,40 @@
+{%load static%}
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'STUDy.css' %}">
+    
+        <title>STUDy</title>
+    
+    </head>
+    
+    <body>
+    
+        <div class="header">
+        <h1>STUDy</h1>
+
+        <p id="para">Here you will get all the question papers of all semesters.</p>
+        </div>
+        <p class="note">*NOTE: If someone wishes to contribute a question paper please mail it on:-  &nbsp;<i><u>nimishbhandari727521@gmail.com</u></i> or send it on instagram:- &nbsp;<i><u>bhandari.nimish</u></i></p>
+        
+        <div class="fixed">
+            This page is made by <u>NIMISH BHANDARI</u>, ECE
+        </div>
+    
+        <br><br><br><br><br><br>
+
+
+        {% for i in number %}
+        <div class="check">
+          <hr color="red" size="3%" width="15%">
+        <h2><a href="SEM.html">SEM-{{i}}</a></h2>
+        
+        {% endfor %}
+        <hr color="red" size="3%" width="15%">
+        
+        <br><br><br>
+       
+        
+    </body>
+
+</html>

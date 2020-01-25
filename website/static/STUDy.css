@@ -1,0 +1,62 @@
+body
+{
+    background-color: rgba(173, 216, 230, 0.46);
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: black;
+    color: white
+}
+
+h2
+{
+    text-align: center;
+    color: white;
+    background-color: rgba(32, 226, 99, 0.72);
+    font-size-adjust: auto;
+    font-family: red serif;
+     margin: auto;
+  width: 9%;
+  border: 10px solid #eef5ee;
+  padding: 10px;
+    border-style: inset;
+            
+}
+
+
+div.header
+{
+   position : fixed;
+   top: 0;
+   right: 0;
+   width:75%;
+    background-color: #4be6e6;
+    text-align: center;
+    padding: 1px;
+    font-size: 25;
+    }
+
+#para
+{
+    font-size: 17;
+}
+
+div.check
+a:hover
+{
+    color: aqua;
+}
+
+p.note
+{   position : fixed;
+    top: 35%;
+    width:100%;
+    background-color: black;
+    color:white
+}
+
